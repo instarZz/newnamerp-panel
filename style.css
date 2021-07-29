@@ -7,21 +7,23 @@
 
 main {
     min-height: 100vh;
-    background: linear-gradient(to right top,#000000, #000000);
+    background: linear-gradient(to right top,#160441, #cc0101);
 }
 
 .glass {
     display: flex;
     min-height: 100vh;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.1));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.3), rgba(255, 255, 255, 0.1));
 }
 
 .menu {
     background: white;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,1), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.9));
     border-radius: 1rem;
     min-height: 100vh;
     width: 17%;
+    border: 1px solid rgba(255, 255, 255, 1);
+
 }
 
 .user {
@@ -42,8 +44,10 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);
-    min-height: 10vh;
+    box-shadow: 0px 3px 3px 0px rgb(141 141 141 / 80%);
+    min-height: 5vh;
     width: 100%;
+    margin-top: 1em;
 } 
 
 .user div:nth-child(2) h3:first-child {
@@ -56,10 +60,15 @@ main {
 }
 
 .links {
-    background-color: white;
+    /* background-color: white; */
     background: linear-gradient(to right bottom, rgba(255, 255, 255,0.4), rgba(255, 255, 255, 0.3));
-    min-height: 40vh;
+    min-height: 24vh;
     width: 100%;
+    margin-top: 6em;
+}
+
+.links div:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .links div {
@@ -86,10 +95,13 @@ main {
 .assurance {
     min-height: 15vh;
     width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.4), rgba(255, 255, 255, 0.3));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
 }
 
 .assurance label:first-child {
@@ -135,7 +147,7 @@ main {
 
 .footer {
     min-height: 18vh;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.4), rgba(255, 255, 255, 0.3));
+    /* background: linear-gradient(to right bottom, rgba(255, 255, 255,0.4), rgba(255, 255, 255, 0.3)); */
     
 }
 
@@ -152,12 +164,15 @@ main {
 }
 
 .container-white {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.4));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.8));
+    border: 1px solid rgba(255, 255, 255, 1);
+    /* box-shadow: 0px 3px 3px 0px rgb(15 2 2 / 90%); */
     border-radius: 10px;
     padding: 25px;
     margin: 15px 20px;
     width: 25em;
 }
+
 
 p {
     font-family: 'Roboto';
@@ -181,12 +196,14 @@ span {
 }
 
 .container-white-cars {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.4));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.8));
     border-radius: 10px;
     padding: 25px;
     margin: 15px 20px;
     width: 95%;
     height: 95%;
+    border: 1px solid rgba(255, 255, 255, 1);
+
 }
 
 .mini-container {
@@ -212,21 +229,25 @@ span {
 }
 
 .container-inventory {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.4));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.8));
     border-radius: 10px;
     padding: 25px;
     margin: 15px 20px;
     width: 95%;
     height: 60%;
+    border: 1px solid rgba(255, 255, 255, 1);
+
 }
 
 .container-lockers {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.4));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.8));
     border-radius: 10px;
     padding: 25px;
     margin: 15px 20px;
     width: 95%;
     height: 33%;
+    border: 1px solid rgba(255, 255, 255, 1);
+
 }
 
 .column3{
@@ -234,10 +255,12 @@ span {
 }
 
 .container-sms {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.4));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255,0.6), rgba(255, 255, 255, 0.8));
     border-radius: 10px;
     padding: 25px;
     margin: 15px 20px;
     width: 95%;
     height: 95%;
+    border: 1px solid rgba(255, 255, 255, 1);
+
 }
